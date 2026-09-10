@@ -12,7 +12,7 @@ public class Missao5 {
 
         Map<String, Produtos> mapaEstoque = new HashMap<>();
 
-        // Cadastro dos produtos
+       
         mapaEstoque.put(
                 "A001",
                 new Produtos("A001", "Teclado", 150.00)
@@ -34,9 +34,7 @@ public class Missao5 {
         );
 
 
-        // ==========================================
-        // CONSULTA POR CÓDIGO
-        // ==========================================
+      
 
         Scanner scanner = new Scanner(System.in);
 
@@ -53,10 +51,7 @@ public class Missao5 {
         }
 
 
-        // ==========================================
-        // EXIBINDO AS CHAVES
-        // ==========================================
-
+        
         Set<String> chaves = mapaEstoque.keySet();
 
         System.out.println("\nCódigos cadastrados:");
@@ -66,9 +61,7 @@ public class Missao5 {
         }
 
 
-        // ==========================================
-        // EXIBINDO OS VALORES
-        // ==========================================
+        
 
         Collection<Produtos> produtos = mapaEstoque.values();
 
