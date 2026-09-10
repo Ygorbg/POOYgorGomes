@@ -6,10 +6,6 @@ public class Missao04 {
 
     public static void main(String[] args) {
 
-        // ==========================================
-        // ORDENAÇÃO NATURAL - PELO NOME
-        // ==========================================
-
         TreeSet<Produto> catalogoNatural = new TreeSet<>();
 
         catalogoNatural.add(new Produto("Teclado", 150.00));
@@ -23,10 +19,6 @@ public class Missao04 {
             System.out.println(produto);
         }
 
-
-        // ==========================================
-        // ORDENAÇÃO PERSONALIZADA - PELO PREÇO
-        // ==========================================
 
         TreeSet<Produto> catalogoPreco =
                 new TreeSet<>(new ComparadorPorPreco());
